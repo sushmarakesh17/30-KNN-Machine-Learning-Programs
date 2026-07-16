@@ -52,3 +52,108 @@ It is commonly used for:
 ---
 
 ## 📂 Project Structure
+
+
+30-KNN-Machine-Learning-Programs
+│
+├── app.py
+├── train_model.py
+├── dataset.csv
+├── model.pkl
+├── requirements.txt
+├── README.md
+└── dashboard.png
+
+
+---
+
+## ⚙️ Project Workflow
+
+
+Dataset Collection
+↓
+Data Preprocessing
+↓
+Feature Selection
+↓
+Feature Scaling
+↓
+Train-Test Split
+↓
+KNN Model Training
+↓
+Model Evaluation
+↓
+Model Deployment using Streamlit
+↓
+User Prediction
+
+
+---
+
+## 📊 Application Features
+
+✅ Upload and process machine learning dataset  
+✅ Perform feature scaling automatically  
+✅ Train KNN model  
+✅ Select number of neighbors (K value)  
+✅ Evaluate model performance  
+✅ Generate predictions using user inputs  
+✅ Interactive Streamlit dashboard  
+
+---
+
+## 📸 Dashboard Preview
+
+![KNN Machine Learning Dashboard](dashboard.png)
+
+---
+
+## 💻 Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone <repository-url>
+2. Navigate to Project Folder
+cd 30-KNN-Machine-Learning-Programs
+3. Install Required Libraries
+pip install -r requirements.txt
+▶️ Run the Project
+Step 1: Train the Model
+python train_model.py
+
+This will generate:
+
+model.pkl
+Step 2: Launch Streamlit Application
+streamlit run app.py
+
+The application will open in your browser.
+
+📈 Model Evaluation
+
+The model performance is evaluated using:
+
+Accuracy Score
+Classification Report
+📚 Skills Demonstrated
+Python Programming
+Machine Learning Model Development
+Data Preprocessing
+Feature Engineering
+Model Training
+Model Deployment
+Streamlit Application Development
+🔮 Future Enhancements
+Add all 30 individual KNN use cases
+Add multiple datasets
+Add model comparison with other algorithms
+Add interactive visualizations
+Add automated ML pipeline
+👩‍💻 Author
+
+Sushma Rakesh
+
+GitHub:
+https://github.com/sushmarakesh17
